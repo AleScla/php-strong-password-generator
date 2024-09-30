@@ -10,5 +10,7 @@
             echo $psw_cripted;
         }
     }
-            
+     // questa funzione usa una funzione basilare di php (rand(min, max)) che andrà a sostituire 
+     // il valore dell'indice dell'array keycripter con un numero random ad ogni interazione
+     // prendendo così un carattere diverso per interazione, stampando infine il risultato       
 ?>
